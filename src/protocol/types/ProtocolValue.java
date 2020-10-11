@@ -1,6 +1,6 @@
 package protocol.types;
 
-public class ProtocolValue<T> extends Protocol
+public class ProtocolValue<T> implements Protocol
 {
 	private T value;
 	private TypeValue typeValue;
@@ -24,7 +24,7 @@ public class ProtocolValue<T> extends Protocol
 	}
 
 	@Override
-	String toProtocol()
+	public String toProtocol()
 	{
 		String temp = "";
 		

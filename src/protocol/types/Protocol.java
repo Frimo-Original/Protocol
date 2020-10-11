@@ -1,5 +1,5 @@
 package protocol.types;
 
-abstract class Protocol {
+interface Protocol {
 	abstract String toProtocol();
 }

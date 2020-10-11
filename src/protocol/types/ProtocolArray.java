@@ -2,7 +2,7 @@ package protocol.types;
 
 import java.util.ArrayList;
 
-public class ProtocolArray extends Protocol
+public class ProtocolArray implements Protocol
 {
 	private ArrayList<ProtocolValue<?>> elements = new ArrayList<>();
 	

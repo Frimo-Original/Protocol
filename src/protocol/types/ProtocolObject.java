@@ -3,7 +3,7 @@ package protocol.types;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ProtocolObject extends Protocol
+public class ProtocolObject implements Protocol
 {
 	private HashMap<String, ProtocolValue<?>> elements = new HashMap<String, ProtocolValue<?>>();
 	
